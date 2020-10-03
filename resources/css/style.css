@@ -1,10 +1,16 @@
+/* global styling */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+:root {
+    --clr-1: #e67e22;
+    --clr-2: #bf6516;
+}
+
+html {
   background-color: #fff;
   color: #555;
   font-family: "Lato", sans-serif;
@@ -17,6 +23,8 @@ body {
   max-width: 1140px;
   margin: 0 auto;
 }
+
+/* header styling */
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -35,5 +43,52 @@ header {
 }
 
 h1 {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 240%;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+/* header button styling */
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: var(--clr-1);
+  border: 1px solid var(--clr-1);
+  color: #fff;
+  margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid var(--clr-1);
+  color: var(--clr-1);
+}
+
+.btn:hover,
+.btn:active {
+  background-color: var(--clr-2);
+}
+
+.btn-full:hover,
+.btn-full:active {
+  border: 1px solid var(--clr-2);
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 1px solid var(--clr-2);
+  color: #fff;
 }
