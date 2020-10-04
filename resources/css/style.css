@@ -86,17 +86,16 @@ h3 {
 }
 
 .box p {
-    font-size: 90%;
-    line-height: 145%;
+  font-size: 90%;
+  line-height: 145%;
 }
 
 /* icon styles */
 
 .box ion-icon {
-    font-size: 350%;
-    color: var(--clr-1);
+  font-size: 350%;
+  color: var(--clr-1);
 }
-
 
 /* ------------------------------------------------------------------------- */
 /* header styling */
@@ -194,4 +193,29 @@ header {
 .btn-ghost:active {
   border: 1px solid var(--clr-2);
   color: #fff;
+}
+
+/* ------------------------------------------------------------------------- */
+/* meals section styling */
+/* ------------------------------------------------------------------------- */
+
+.meals-section {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+}
+
+.meal-photo img {
+  width: 100%;
+  height: auto;
 }
