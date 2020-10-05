@@ -22,13 +22,15 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-.clearfix {zoom: 1}
+.clearfix {
+  zoom: 1;
+}
 .clearfix:after {
-    content: '.';
-    clear: both;
-    display: block;
-    height: 0;
-    visibility: hidden;
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
 }
 
 .row {
@@ -42,6 +44,23 @@ section {
 
 .box {
   padding: 1%;
+}
+
+/* link styling */
+
+a:link,
+a:visited {
+  color: var(--clr-1);
+  text-decoration: none;
+  border-bottom: 1px solid var(--clr-1);
+  padding-bottom: 1px;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
 }
 
 /* ------------------------------------------------------------------------- */
@@ -209,7 +228,7 @@ header {
 /* ------------------------------------------------------------------------- */
 
 .section-features .long-copy {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 /* ------------------------------------------------------------------------- */
@@ -256,58 +275,68 @@ header {
 /* ------------------------------------------------------------------------- */
 
 .section-steps {
-    background-color: #f4f4f4;
+  background-color: #f4f4f4;
 }
 
 .steps-box {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .steps-box:first-child {
-    text-align: right;
-    padding-right: 3%;
+  text-align: right;
+  padding-right: 3%;
 }
 
 .steps-box:last-child {
-    padding-left: 3%;
-    margin-top: 70px;
+  padding-left: 3%;
+  margin-top: 70px;
 }
 
 .app-screen {
-    width: 40%;
+  width: 40%;
 }
 
 .works-step {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .works-step:last-of-type {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .works-step div {
-    color: var(--clr-1);
-    border: 2px solid var(--clr-1);
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    padding: 5px;
-    float: left;
-    font-size: 150%;
-    margin-right: 25px;
+  color: var(--clr-1);
+  border: 2px solid var(--clr-1);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+  float: left;
+  font-size: 150%;
+  margin-right: 25px;
+}
+
+.btn-app-apple:link,
+.btn-app-apple:visited {
+  border: 0;
+}
+
+.btn-app-android:link,
+.btn-app-android:visited {
+  border: 0;
 }
 
 .btn-app-apple img {
-    height: 50px;
-    width: auto;
-    margin-right: 10px;
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
 }
 
 .btn-app-android img {
-    height: 50px;
-    width: auto;
-    margin-right: 10px;
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
 }
 
 /* ------------------------------------------------------------------------- */
@@ -315,10 +344,24 @@ header {
 /* ------------------------------------------------------------------------- */
 
 .box img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
 }
 
 .cities-icon {
-    color: var(--clr-1);
+  display: inline-block;
+  width: 30px;
+  font-size: 120%;
+  color: var(--clr-1);
+  margin-right: 10px;
+
+  /* to align text and icon */
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -8px;
+}
+
+.city-feature {
+  margin-bottom: 5px;
 }
