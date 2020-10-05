@@ -101,7 +101,7 @@ h3 {
 
 /* icon styles */
 
-.box ion-icon {
+.features-icon {
   font-size: 350%;
   color: var(--clr-1);
 }
@@ -308,4 +308,17 @@ header {
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+/* ------------------------------------------------------------------------- */
+/* cities section styling */
+/* ------------------------------------------------------------------------- */
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.cities-icon {
+    color: var(--clr-1);
 }
