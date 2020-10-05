@@ -95,7 +95,7 @@
 
     <!-- favorite meals section -->
     <section class="section-meals">
-      <ul class="meals-showcase">
+      <ul class="meals-showcase clearfix">
         <li>
           <figure class="meal-photo">
             <img src="resources/css/img/1.jpg" alt="Korean bibimbap with egg and vegetables" />
@@ -118,7 +118,7 @@
         </li>
       </ul>
 
-      <ul class="meals-showcase">
+      <ul class="meals-showcase clearfix">
         <li>
           <figure class="meal-photo">
             <img src="resources/css/img/5.jpg" alt="Paleo beef steak with vegetables" />
@@ -146,11 +146,14 @@
       <div class="row">
         <h2>How it works &mdash; Simple as 1, 2, 3</h2>
       </div>
+
       <div class="row">
-        <div class="col span 1-of-2">
+        <!-- left column -->
+        <div class="col span-1-of-2 steps-box">
           <img src="resources/css/img/app-iPhone.png" alt="Omnifood app on iPhone" class="app-screen">
         </div>
-        <div class="col span-1-of-2">
+        <!-- right column -->
+        <div class="col span-1-of-2 steps-box">
           <div class="works-step">
             <div>1</div>
             <p>Choose the subscription plan that best fits your needs and sign up today.</p>
@@ -163,9 +166,13 @@
             <div>3</div>
             <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
           </div>
+          <a href="#" class="btn-app-apple"><img src="resources/css/img/download-app.svg" alt="app store button"></a>
+          <a href="#" class="btn-app-android"><img src="resources/css/img/download-app-android.png" alt="play store button"></a>
         </div>
+
       </div>
     </section>
+
     <script src="resources/js/script.js"></script>
   </body>
 </html>
