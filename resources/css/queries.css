@@ -1,0 +1,87 @@
+/* small phones: from 0 to 480 pixels */
+@media only screen and (max-width: 480px) {
+}
+
+/* phones between iPad and older iPhones */
+@media only screen and (max-width: 767px) {
+}
+
+/* iPad in portrait mode */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .steps-box {
+    margin-top: 10px;
+  }
+
+  .steps-box:last-child {
+    margin-top: 10px;
+  }
+  .works-step {
+    margin-bottom: 40px;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 60px;
+  }
+  .works-step p {
+    font-size: 80%;
+  }
+
+  .app-screen {
+    width: 60%;
+  }
+  .btn-app-apple img,
+  .btn-app-android img {
+    display: inline-block;
+    margin-right: 5px;
+    height: 40px;
+  }
+
+  .cities-icon {
+    width: 20px;
+    margin-right: 3px;
+  }
+  .city-feature {
+    font-size: 60%;
+  }
+  .plan-box {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .section-plans {
+    font-size: 70%;
+    padding: 40px;
+  }
+  .plan-icons {
+    font-size: 70%;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+
+  .footer-nav li,
+  .social-links li {
+    margin-right: 5px;
+  }
+}
+
+/* tablets and small computers */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+}
