@@ -1,9 +1,13 @@
-/* small phones: from 0 to 480 pixels */
-@media only screen and (max-width: 480px) {
-}
+/* tablets and small computers */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
 
-/* phones between iPad and older iPhones */
-@media only screen and (max-width: 767px) {
+  .row {
+    padding: 0 2%;
+  }
 }
 
 /* iPad in portrait mode */
@@ -50,12 +54,13 @@
     margin-right: 3px;
   }
   .city-feature {
-    font-size: 60%;
+    font-size: 70%;
   }
   .plan-box {
     width: 100%;
     margin-left: 0%;
   }
+
   .section-plans {
     font-size: 70%;
     padding: 40px;
@@ -74,14 +79,83 @@
   }
 }
 
-/* tablets and small computers */
-@media only screen and (max-width: 1200px) {
+/* phones between iPad and older iPhones */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .row,
   .hero-text-box {
+    padding: 0 4%;
+  }
+  .col {
     width: 100%;
-    padding: 0 2%;
+    margin: 0 0 4% 0;
+  }
+  .main-nav {
+    display: none;
   }
 
-  .row {
-    padding: 0 2%;
+  .h1 {
+    font-size: 180%;
+  }
+  .h2 {
+    font-size: 150%;
+  }
+
+  .long-copy {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .city-feature {
+    font-size: 100%;
+  }
+  .works-step div {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+    margin-right: 15px;
+  }
+  .app-screen {
+    width: 30%;
+  }
+  .works-step p {
+    font-size: 125%;
+  }
+
+  .steps-box:first-child {
+    text-align: center;
+    padding: 0%;
+    margin-bottom: 20px;
+  }
+  .plan-box {
+    font-size: 150%;
+  }
+
+  .footer-nav,
+  .social-links {
+    float: none;
+    text-align: center;
+  }
+}
+
+/* small phones: from 0 to 480 pixels */
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 25px 0;
+  }
+  .works-step p {
+    font-size: 100%;
+  }
+  .city-feature {
+    font-size: 100%;
+  }
+  
+  .contact-form {
+    width: 100%;
   }
 }
