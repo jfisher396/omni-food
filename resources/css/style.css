@@ -633,6 +633,7 @@ footer {
     -o-transition: color 0.2s;
 }
 
+/* official site colors */
 .facebook-icon:hover {
     color: #1877f2;
 }
@@ -650,4 +651,21 @@ footer p {
     text-align: center;
     font-size: 90%;
     margin-top: 20px;
+}
+
+/* ------------------------------------------------------------------------- */
+/* footer styling */
+/* ------------------------------------------------------------------------- */
+
+.js--wp-1,
+.js--wp-2, 
+.js--wp-3 {
+  opacity: 0;
+  animation-duration: 1s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
+  opacity: 1;
 }

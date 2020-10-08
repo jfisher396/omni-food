@@ -9,6 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css" />
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"
@@ -17,16 +21,22 @@
       nomodule=""
       src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"
     ></script>
-    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="resources/css/queries.css" />
     <title>Omni-Food</title>
   </head>
   <body>
     <header>
       <nav>
         <div class="row">
-          <img src="resources/img/logo-white.png" alt="Omnifood logo-white" class="logo" />
-          <img src="resources/img/logo.png" alt="Omnifood logo" class="logo-black" />
+          <img
+            src="resources/img/logo-white.png"
+            alt="Omnifood logo-white"
+            class="logo"
+          />
+          <img
+            src="resources/img/logo.png"
+            alt="Omnifood logo"
+            class="logo-black"
+          />
           <ul class="main-nav">
             <li><a href="#features">Food Delivery</a></li>
             <li><a href="#steps">How it works</a></li>
@@ -41,7 +51,9 @@
           Hello super healthy meals.
         </h1>
         <a class="btn btn-full js--scroll-to-plans" href="#">I'm hungry</a>
-        <a class="btn btn-ghost js--scroll-to-features" href="#">Show me more</a>
+        <a class="btn btn-ghost js--scroll-to-features" href="#"
+          >Show me more</a
+        >
       </div>
     </header>
 
@@ -55,7 +67,7 @@
           we're really good at it, we promise!
         </p>
       </div>
-      <div class="row">
+      <div class="row js--wp-1">
         <div class="col span-1-of-4 box">
           <ion-icon
             name="calendar-outline"
@@ -192,7 +204,7 @@
           <img
             src="resources/img/app-iPhone.png"
             alt="Omnifood app on iPhone"
-            class="app-screen"
+            class="app-screen js--wp-2"
           />
         </div>
         <!-- right column -->
@@ -234,7 +246,7 @@
       <div class="row">
         <h2>We're currently in these cities</h2>
       </div>
-      <div class="row">
+      <div class="row js--wp-3">
         <div class="col span-1-of-4 box">
           <img src="resources/img/lisbon-3.jpg" alt="Lisbon" />
           <h3>Lisbon</h3>
@@ -358,7 +370,7 @@
       </div>
       <div class="row">
         <div class="col span-1-of-3">
-          <div class="plan-box">
+          <div class="plan-box js--wp-4">
             <div>
               <h3>Premium</h3>
               <p class="plan-price">$399 <span>/ month</span></p>
