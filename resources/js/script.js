@@ -1,1 +1,18 @@
-console.log("script.js is working")
+console.log("script.js is working");
+
+$(document).ready(function() {
+
+    $('.js--section-features').waypoint(function(direction) {
+        if(direction == "down") {
+            $('nav').addClass('sticky');
+        } else {
+            $('nav').removeClass('sticky');
+        }
+    }, {
+        offset: '60px;'
+    })
+
+
+
+
+})
