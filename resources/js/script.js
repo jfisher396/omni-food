@@ -61,10 +61,23 @@ $(document).ready(function () {
 
   $(".js--wp-4").waypoint(
     function (direction) {
-          $(".js--wp-4").addClass("animated pulse");
+      $(".js--wp-4").addClass("animated pulse");
     },
     {
       offset: "50%",
     }
   );
+
+
+  // mobile nav
+    $(".js--nav-icon").click(function() {
+      const nav = $(".js--main-nav");
+      const icon = $("js--nav-icon ion-icon");
+      nav.slideToggle(200);
+      // if(icon.hasName('reorder-three-outline')){
+      //   icon.
+      // }
+
+    })
+
 });
