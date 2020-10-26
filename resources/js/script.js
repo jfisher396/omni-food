@@ -72,11 +72,17 @@ $(document).ready(function () {
   // mobile nav
     $(".js--nav-icon").click(function() {
       const nav = $(".js--main-nav");
-      const icon = $("js--nav-icon ion-icon");
+      const icon = $(".js--nav-icon i");
+
       nav.slideToggle(200);
-      // if(icon.hasName('reorder-three-outline')){
-      //   icon.
-      // }
+
+      if(icon.hasClass('fa-hamburger')){
+        icon.addClass('fa-times');
+        icon.removeClass('fa-hamburger');
+      } else {
+        icon.addClass('fa-hamburger');
+        icon.removeClass('fa-times');
+      }
 
     })
 
