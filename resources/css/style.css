@@ -582,6 +582,28 @@ input[type=checkbox] {
     outline: none;
 }
 
+.form-messages {
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.success {
+  background-color: rgb(59, 250, 59);
+}
+
+.error {
+  background-color: rgb(243, 79, 79);
+}
+
 /* ------------------------------------------------------------------------- */
 /* footer styling */
 /* ------------------------------------------------------------------------- */
